@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="block">
+      <h1 class="title is-1 has-text-white">Weather Dashboard</h1>
+    </div>
+    <div class="columns" >
+      <div class="column is-one-third">
+        <div class="control">
+          <h2 class="title is-2">Search for the City</h2>
+          <input
+            class="input is-hovered"
+            type="text"
+            placeholder="Example: San Antonio"
+          />
+        </div>
+        <div class="buttons">
+          <button id="searchButton" class="button is-primary is-fullwidth">Search </button>
+          
+          <hr>
+          <button class="button is-fullwidth city_buttons">Austin</button>
+          <button class="button is-fullwidth city_buttons">Chicago</button>
+          <button class="button is-fullwidth city_buttons">New York</button>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <h3> 5-Day Forecast</h3>
+    <div class="columns card-container">
+    <div class="card column is-one-quarter">
+      <div class="card-content">
+        <div class="content">
+          Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </body>
 </html>

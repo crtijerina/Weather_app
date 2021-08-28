@@ -1,0 +1,27 @@
+#searchButton {
+  color: blue;
+  margin-top: 10px;
+}
+.city_buttons {
+  background-color: darkgray;
+}
+h1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(102, 102, 233),
+    blue,
+    rgb(37, 6, 150)
+  );
+  text-align: center;
+}
+hr {
+    color: gray;
+  border-width: 2px;
+  border-style: solid;
+  width: 100%;
+}
+h3 { 
+margin-bottom: 20px;
+color: #228b22;
+font-size: 25px; 
+}
